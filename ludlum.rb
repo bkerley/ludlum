@@ -1,5 +1,5 @@
-NAMES = %w{ Adams Clancy Stross Beckett Rand Ludlum Baker MacAllan Rowling Stoker Tyndale Sobol Stephenson Lightner Baumann Clinton Avenir Zapf Braun Gamma Beta Alpha Omega Waterhouse Moscow Berlin Munich Washington Portland }
-THINGS = %w{ Gambit Conspiracy Codex Morgue Edge Memorandum Situation Mention Dream Nation Point Force Agenda Minute Break Bottle Book Death Circumflex Chancery Razor Factor Clause Colony Incident Deception Inception File Cabinet Criterion Ultimatum Identity }
+NAMES = %w{ Adams Clancy Stross Beckett Rand Ludlum Baker MacAllan Rowling Stoker Tyndale Sobol Stephenson Lightner Baumann Clinton Avenir Zapf Braun Gamma Beta Alpha Omega Waterhouse Moscow Berlin Munich Washington Portland Foucault }
+THINGS = %w{ Gambit Conspiracy Codex Morgue Edge Memorandum Situation Mention Dream Nation Point Force Agenda Minute Break Bottle Book Death Circumflex Chancery Razor Factor Clause Colony Incident Deception Inception File Cabinet Criterion Ultimatum Identity Palimpsest Pendulum Tragedy Collective }
 get '/' do
   n = NAMES[rand(NAMES.length)]
   t = THINGS[rand(THINGS.length)]
